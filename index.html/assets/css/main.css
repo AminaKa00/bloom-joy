@@ -2694,7 +2694,6 @@ input, select, textarea {
 
 /* Narrow */
 
-/* Narrower */
 
 	@media screen and (max-width: 840px) {
 
@@ -3136,29 +3135,21 @@ input, select, textarea {
 					}
 
 	}
-/* ==========================================================================
-   ПОВНИЙ КОМПЛЕКС ПРАВОК: ГОЛОВНА, ЗАГОЛОВКИ, ПАРТНЕРИ ТА ФУТЕР
-   ========================================================================== */
-
-/* --- 1. КАРТИНКА 1: ГОЛОВНА СЕКЦІЯ (HERO) --- */
-
-/* Чіткий текст головного заголовка та підзаголовка */
 #banner h1, 
 #banner h2, 
 .banner-title {
-	color: #2d3436 !important; /* Темний графітовий колір замість блідо-білого */
+	color: #2d3436 !important; 
 	font-weight: 700 !important;
 	text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8) !important;
 }
 
 #banner p, 
 .banner-subtitle {
-	color: #4a4a4a !important; /* Темний розбірливий колір */
+	color: #4a4a4a !important;
 	font-size: 19px !important;
 	font-weight: 500 !important;
 }
 
-/* Виділені горизонтальні смужки/лінії */
 #banner hr, 
 .banner-line,
 hr {
@@ -3170,7 +3161,6 @@ hr {
 
 }
 
-/* Жорстке примусове скидання круглої форми для кнопки */
 #banner a.button,
 #banner .button,
 a.button {
@@ -3178,7 +3168,7 @@ a.button {
     height: auto !important;
     min-width: 180px !important;
     max-width: fit-content !important;
-    border-radius: 30px !important; /* Робить кнопкою прямокутною із заокругленими кутами */
+    border-radius: 30px !important;
     padding: 14px 32px !important;
     line-height: 1.2 !important;
     display: inline-block !important;
@@ -3188,10 +3178,6 @@ a.button {
     color: #ffffff !important;
 }
 
-
-/* --- 2. КАРТИНКА 2: БЛОКИ "ДАРУЙТЕ ЕМОЦІЇ" ТА "НАШІ БУКЕТИ" --- */
-
-/* Заголовок "Даруйте емоції з першого погляду" */
 .emotion-section h2, 
 section.special-heading h2 {
 	text-align: center !important;
@@ -3201,34 +3187,28 @@ section.special-heading h2 {
 	margin-bottom: 12px !important;
 }
 
-/* Підзаголовок "Створюємо ніжні авторські композиції..." */
 .emotion-section p, 
 section.special-heading p {
 	text-align: center !important;
 	font-size: 20 px !important;
-	color: #4a4a4a !important; /* Темніший колір для читабельності */
+	color: #4a4a4a !important; 
 	max-width: 800px !important;
 	margin: 0 auto 35px auto !important;
 	line-height: 1.6 !important;
 }
 
-/* Заголовок "Наші популярні букети" (центрований, зменшений та жирний) */
 .catalog-section h2, 
 #catalog h2, 
 .products-heading {
-	text-align: center !important; /* Ставимо в центр */
-	font-size: 28px !important; /* Трохи зменшений та акуратний */
-	font-weight: 700 !important; /* Жирний шрифт */
+	text-align: center !important;
+	font-size: 28px !important;
+	font-weight: 700 !important; 
 	color: #2d3436 !important;
 	margin-top: 40px !important;
 	margin-bottom: 30px !important;
 }
 
 
-
-/* --- 3. КАРТИНКА 3: БЛОК "ПАРТНЕРИ" ТА ФУТЕР --- */
-
-/* Блок партнерів — центрування та збільшення */
 .partners-section, 
 #partners {
 	text-align: center !important;
@@ -3265,7 +3245,6 @@ section.special-heading p {
 	text-decoration: underline !important;
 }
 
-/* ФУТЕР — чітка картка та виразне застереження */
 #footer {
 	background-image: none !important;
 	background-color: #fff0f1 !important;
@@ -3286,8 +3265,8 @@ section.special-heading p {
 
 #footer p, 
 .disclaimer-text {
-	font-size: 16px !important; /* Збільшений текст застереження */
-	color: #2d3436 !important; /* Чіткий темний колір */
+	font-size: 16px !important; 
+	color: #2d3436 !important; 
 	line-height: 1.6 !important;
 	text-align: center !important;
 	margin: 0 !important;
